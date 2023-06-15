@@ -134,6 +134,7 @@
     "tailwindcss-dir": "4.0.0"
   },
   "scripts": {
+    "start": "react-scripts start --openssl-legacy-provider",
     "start": "craco start",
     "build": "cross-env GENERATE_SOURCEMAP=false craco build",
     "test": "craco test --env=node",
